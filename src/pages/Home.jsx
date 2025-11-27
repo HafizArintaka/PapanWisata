@@ -3,7 +3,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import PlaceCard from '../components/PlaceCard'
 import Contact from '../components/Contact'
-import TeamSection from '../components/TeamSection'
+import TeamSection from './TeamSection'
 import { places } from '../data/places'
 
 export default function Home() {

@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 /* =========================
    1) CSS Variables (Theme)
    ========================= */
@@ -563,14 +562,14 @@ section, main { scroll-margin-top: 110px; }
   content: '';
   position: absolute;
   inset: 0;
-  backdrop-filter: blur(6px);
-  background: rgba(0,0,0,0.45);
+  backdrop-filter: blur(4px);
+  background: rgba(0,0,0,0.30);
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(14,17,22,0.9) 85%);
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(14,17,22,0.9) 90%);
   pointer-events: none;
 }
 

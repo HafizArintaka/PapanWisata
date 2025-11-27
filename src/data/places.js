@@ -9,7 +9,7 @@ export const places = [
     image: place1,
     description: 'Ikonik dengan tebing berbentuk T-Rex dan air laut biru yang jernih.',
     tags: ['Pantai', 'Ikonik', 'Foto'],
-    markdown: '1-pantai-parangtritis.md'
+    markdown: 'parangtritis.html'
   },
   {
     id: 2,

@@ -1,4 +1,4 @@
-import TeamCard from "./TeamCard"
+import TeamCard from "../components/TeamCard"
 import { teamMembers } from "../data/team"
 
 export default function TeamSection() {
