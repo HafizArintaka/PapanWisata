@@ -44,15 +44,15 @@ const Header = () => {
 
   const items = [
     { id: "home", label: "Home", href: "#" },
-    { id: "about", label: "About", href: "#about" },
-    { id: "portfolio", label: "Portfolio", href: "#portfolio" },
+    { id: "about", label: "Explore", href: "#about" },
+    { id: "team", label: "Kelompok", href: "#team" },
     { id: "contact", label: "Contact", href: "#contact" },
   ];
 
   return (
     <>
       <nav className={`navbar ${scrolled ? "is-scrolled" : ""}`} aria-label="Primary">
-        <div className="navbar-brand">Nusantara</div>
+        <div className="navbar-brand">ꦤꦸꦱꦤ꧀ꦠꦫ</div>
 
         {/* Desktop links */}
         <ul className="navbar-links">

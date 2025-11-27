@@ -1,12 +1,15 @@
+import place1 from '../assets/cards/parangtritis.jpg';
+
+
 export const places = [
   {
     id: 1,
-    name: 'Pantai Kelingking',
-    location: 'Nusa Penida, Bali',
-    image: 'https://images.unsplash.com/photo-1599916954809-153057c79d88?q=80&w=1200',
+    name: 'Pantai Parangtritis',
+    location: 'Parangtritis, Kretek, Bantul, Yogyakarta',
+    image: place1,
     description: 'Ikonik dengan tebing berbentuk T-Rex dan air laut biru yang jernih.',
     tags: ['Pantai', 'Ikonik', 'Foto'],
-    markdown: '1-pantai-kelingking.md'
+    markdown: '1-pantai-parangtritis.md'
   },
   {
     id: 2,
@@ -15,7 +18,7 @@ export const places = [
     image: 'https://images.unsplash.com/photo-1519066629447-267fffa62d5d?q=80&w=1200',
     description: 'Panorama matahari terbit yang memukau di lautan pasir.',
     tags: ['Gunung', 'Sunrise'],
-    markdown: '2-gunung-bromo.md'
+    markdown: '2-merapi.md'
   },
   {
     id: 3,

@@ -2,6 +2,8 @@ import { useRef } from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import PlaceCard from '../components/PlaceCard'
+import Contact from '../components/Contact'
+import TeamSection from '../components/TeamSection'
 import { places } from '../data/places'
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
   return (
     <>
       <Header />
+
       <section id="home">
         <Hero onExplore={handleExplore} />
       </section>
@@ -29,16 +32,11 @@ export default function Home() {
         </div>
       </main>
 
-      {/* Contoh section lain agar anchor navbar bekerja */}
-      <section id="portfolio" style={{ padding: '4rem 1rem' }}>
-        <h2 className="section-title">Portfolio</h2>
-        <p style={{ color: 'var(--text-muted)' }}>Konten portfolio di sini…</p>
-      </section>
+      {/* Team Section di sini */}
+      <TeamSection />
 
-      <section id="contact" style={{ padding: '4rem 1rem' }}>
-        <h2 className="section-title">Contact</h2>
-        <p style={{ color: 'var(--text-muted)' }}>Kontak / form di sini…</p>
-      </section>
+      {/* Contact Section */}
+      <Contact />
     </>
   )
 }

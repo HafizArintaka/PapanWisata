@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 /* =========================
    1) CSS Variables (Theme)
    ========================= */
@@ -73,7 +76,7 @@ section {
   text-align: center;
   background:
     radial-gradient(circle at 30% 30%, rgba(255,255,255,0.08), transparent 60%),
-    url('https://images.unsplash.com/photo-1518684079-3c830dcef090?q=80&w=1800') center/cover no-repeat;
+    url('./assets/jogjabg.jpg') center/cover no-repeat;
   overflow: hidden;
 }
 
@@ -358,26 +361,28 @@ section {
   align-items: center;
   gap: var(--nav-gap);
   padding: var(--nav-pad-y) var(--nav-pad-x);
-  background: rgba(18, 20, 24, 0.38);
-  backdrop-filter: blur(8px);
+  
+  
   border-radius: var(--nav-radius);
-  border: 1px solid rgba(255,255,255,0.10);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  border: 0.2px solid rgba(255,255,255,0.10);
+  box-shadow: 0 3px 13px rgba(0,0,0,0.25);
   transition: background .2s ease, border-color .2s ease, box-shadow .2s ease;
 }
 
 /* Saat diskrol: tampilkan ring oranye + glow */
 .navbar.is-scrolled {
   background: rgba(18, 20, 24, 0.55);
+  backdrop-filter: blur(5px);
   border: 2px solid var(--accent);
   box-shadow:
     0 0 0 1px rgba(255,123,0,0.25),
     0 12px 28px rgba(255,123,0,0.22);
+
 }
 
 /* Brand */
 .navbar-brand {
-  font-weight: 800;
+  font-weight: 500;
   font-size: 1.4rem;
   color: var(--text-light);
   padding-right: 8px;
@@ -434,7 +439,7 @@ section {
   position: fixed;
   inset: 0;
   background: rgba(0,0,0,0.45);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(0px);
   z-index: 999;
   opacity: 0;
   pointer-events: none;
@@ -517,3 +522,70 @@ section, main { scroll-margin-top: 110px; }
   border: 2px solid #101418;
 }
 ::-webkit-scrollbar-thumb:hover { background: #303841; }
+
+/* Full-bleed hero: benar-benar memenuhi viewport lebar */
+#home, .hero-container {
+  /* Jika kamu membungkus Hero dalam <section id="home">, pastikan tidak ada padding di sini */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.hero {
+  /* Penuhi seluruh viewport lebar/tinggi */
+  width: 100vw;
+  min-height: calc(100vh - var(--nav-offset-top));
+  /* Hapus padding horizontal supaya tidak terlihat margin kiri/kanan */
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+
+  /* Biarkan hanya padding-top untuk kompensasi navbar */
+  padding-top: calc(var(--nav-offset-top) + clamp(1.5rem, 4vw, 3rem));
+  padding-bottom: clamp(2rem, 5vw, 4rem);
+
+  /* Penempatan background */
+  background:
+    radial-gradient(circle at 30% 30%, rgba(255,255,255,0.08), transparent 60%),
+    url('/src/assets/jogjabg.jpg') center/cover no-repeat;
+
+  /* Pastikan tidak ada margin dari parent yang terlihat */
+  margin-left: calc(50% - 50vw);   /* trik full-bleed: keluar dari container tengah */
+  margin-right: calc(50% - 50vw);
+
+  /* Tetap center konten di dalam */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Overlay dan blur tetap sama */
+.hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(6px);
+  background: rgba(0,0,0,0.45);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.3), rgba(14,17,22,0.9) 85%);
+  pointer-events: none;
+}
+
+/* Konten tetap dibatasi agar teks tidak terlalu melebar */
+.hero-content {
+  position: relative;
+  max-width: 900px;
+  z-index: 1;
+  animation: fadeIn 0.9s ease;
+  margin: 0 auto;
+}
+
+/* Jika ada wrapper section punya max-width/padding global, matikan khusus hero */
+section#home {
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
