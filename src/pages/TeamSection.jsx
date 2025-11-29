@@ -7,7 +7,7 @@ export default function TeamSection() {
       <div className="mx-auto max-w-5xl text-center">
         <h2 className="text-3xl font-extrabold tracking-tight">Anggota Kelompok</h2>
         <p className="mx-auto mt-3 max-w-2xl text-gray-300/80">
-          Tim hebat yang bekerja di balik layar destinasi wisata ini.
+          Tim hebat ingkang nyambut damel wonten wingkinging layar destinasi wisata menika.
         </p>
       </div>
 

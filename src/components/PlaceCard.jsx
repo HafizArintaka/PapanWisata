@@ -16,7 +16,7 @@ function PlaceCard({ id, name, image, location, description, tags }) {
         <p className="place-location">{location}</p>
         <p className="place-desc">{description}</p>
         <Link to={`/place/${id}`} className="detail-btn" aria-label={`Lihat detail ${name}`}>
-          Lihat Detail
+          Sejangkipipun
         </Link>
       </div>
     </article>

@@ -36,10 +36,10 @@ export default function Contact() {
       <h1 className="text-4xl font-extrabold leading-tight tracking-tight 
     bg-gradient-to-br from-[#ff7b00] via-[#ffb347] to-[#ffd28a]
     bg-clip-text text-transparent">
-        Contact Me
+        Hubungi Kita
       </h1>
       <p className="mx-auto mt-4 max-w-2xl text-gray-300/80">
-        Punya pertanyaan? Kirimi saya pesan, dan saya akan segera membalasnya.
+        Kagungan pitakenan? kirimi kita pesen, lan kita badhe enggal mangsuli nipun.
       </p>
 
       <form

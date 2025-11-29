@@ -25,7 +25,7 @@ export default function Home() {
       </section>
 
       <main ref={listRef} className="places-section" id="about">
-        <h2 className="section-title">Destinasi Wisata Populer</h2>
+        <h2 className="section-title">Papan Wisata</h2>
         <div className="places-grid">
           {places.map(place => (
             <PlaceCard key={place.id} {...place} />

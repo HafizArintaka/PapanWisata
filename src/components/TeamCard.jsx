@@ -2,7 +2,7 @@ export default function TeamCard({ member }) {
   const { name, role, avatar, bio, email, phone, socials = [] } = member
 
   return (
-    <article className="group rounded-2xl border border-white/10 bg-zinc-800/60 p-6 backdrop-blur shadow-[0_8px_28px_rgba(0,0,0,.35)] transition hover:border-[#ff7b00]/50 hover:shadow-[0_10px_38px_rgba(255,123,0,.25)]">
+    <article className="group rounded-2xl border border-white/10 bg-zinc-800/60 p-4 backdrop-blur shadow-[0_8px_28px_rgba(0,0,0,.35)] transition hover:border-[#ff7b00]/50 hover:shadow-[0_10px_38px_rgba(255,123,0,.25)]">
       <div className="flex items-center gap-4">
         <div className="relative h-20 w-20 overflow-hidden rounded-full ring-2 ring-white/15">
           <img
