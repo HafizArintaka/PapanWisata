@@ -1,10 +1,11 @@
 import place1 from '../assets/cards/parangtritis.jpg';
 import place2 from '../assets/cards/kiskendo.jpg';
+import place3 from '../assets/cards/taman.jpg';
 
 export const places = [
   {
     id: 1,
-    name: 'Pantai Parangtritis',
+    name: '꧋ꦥꦤ꧀ꦠ​ꦲꦶ​ꦥ​ꦫꦁ​ꦠꦿꦶ​ꦠꦶꦱ꧀ (Parangtritis)',
     location: 'Parangtritis, Kretek, Bantul, Yogyakarta',
     image: place1,
     description: 'Ikonik dengan tebing berbentuk T-Rex dan air laut biru yang jernih.',
@@ -13,21 +14,21 @@ export const places = [
   },
   {
     id: 2,
-    name: 'Goa Kiskendo',
+    name: '꧋ꦒꦺꦴ​ꦲ​ꦏꦶꦱ꧀ꦏꦼꦤ꧀ꦢꦺꦴ​ (Goa Kiskendo)',
     location: 'Girimulyo, Kulon Progo, Yogyakarta',
     image: place2,
-    description: 'Panorama matahari terbit yang memukau di lautan pasir.',
+    description: 'Goa Kiskendo memadukan keindahan alam Menoreh dengan legenda Ramayana yang hidup dalam relief dan ruang goanya.',
     tags: ['Goa', 'Jogja', 'Foto'],
     markdown: 'kiskendo.html'
   },
   {
     id: 3,
-    name: 'Danau Toba',
-    location: 'Sumatra Utara',
-    image: 'https://images.unsplash.com/photo-1631708558407-6a39aea66e89?q=80&w=1200',
-    description: 'Danau vulkanik terbesar di Asia Tenggara dengan Pulau Samosir di tengahnya.',
-    tags: ['Danau', 'Budaya'],
-    markdown: '3-danau-toba.md'
+    name: '꧋ꦠꦩꦤ꧀ꦥꦶꦤ꧀ꦠꦂ (Taman Pintar)',
+    location: 'Yogyakarta',
+    image: place3,
+    description: 'Jelajahi Goa Kiskendo, tempat legenda Ramayana bertemu keindahan alam Menoreh.',
+    tags: ['Sains', 'Teknologi'],
+    markdown: 'taman.html'
   },
   {
     id: 4,
