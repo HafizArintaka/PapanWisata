@@ -4,7 +4,7 @@ function Hero({ onExplore }) {
     <header className="hero">
       <div className="hero-overlay" />
       <div className="hero-content">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl leading-tight text-white px-3">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl sm:mx-4 leading-tight text-white px-3">
           ꦱꦸꦒꦺꦤ꧀ꦒ꧀ꦫꦮꦸꦃꦮꦺꦴꦤ꧀ꦠꦺꦤ꧀ꦲꦶꦤ꧀ꦒ꧀ꦱꦶꦠꦸꦱ꧀
         </h1>
         <span className="accent font-jawa block mt-3 text-4xl sm:text-5xl md:text-6xl pb-15 mt-8">ꦤꦸꦱꦤ꧀ꦠꦫ</span>

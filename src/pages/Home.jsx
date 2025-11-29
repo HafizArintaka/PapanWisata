@@ -5,6 +5,7 @@ import PlaceCard from '../components/PlaceCard'
 import Contact from '../components/Contact'
 import TeamSection from './TeamSection'
 import { places } from '../data/places'
+import ClosingSection from "../components/ClosingSection"
 
 export default function Home() {
   const listRef = useRef(null)
@@ -37,6 +38,16 @@ export default function Home() {
 
       {/* Contact Section */}
       <Contact />
+
+      {/* Closing / Penutup */}
+      <ClosingSection
+        buttonHref="#about"
+        onClick={() => {
+          // contoh: scroll ke contact secara smooth atau buka modal
+          const el = document.querySelector("#about");
+          if (el) el.scrollIntoView({ behavior: "smooth" });
+        }}
+      />
     </>
   )
 }

@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="scroll-mt-28 mt-20 px-6 py-20 text-center"
+      className="scroll-mt-28 mt-20 mb-10 px-6 py-20 text-center"
     >
 
       <h1 className="text-4xl font-extrabold leading-tight tracking-tight 

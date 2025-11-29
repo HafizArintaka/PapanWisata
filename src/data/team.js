@@ -2,11 +2,11 @@ export const teamMembers = [
   {
     id: 1,
     name: "Hafiz Arintaka",
-    role: "Ketua Tim",
+    role: "Fullstack",
     avatar: "/images/team/hafiz.jpg", // simpan di public/images/team/hafiz.jpg
     bio: "Mengatur koordinasi tim dan memastikan setiap milestone tercapai.",
-    email: "hafizmikrotik@example.com ",
-    phone: "+62-812-3456-7890",
+    email: "hafizarintaka27@gmail.com ",
+    phone: "+62-877-7892-3118",
     socials: [
       { platform: "Github", url: "https://github.com/HafizArintaka" },
       { platform: "LinkedIn", url: "https://linkedin.com/in/your-profile" },

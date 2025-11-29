@@ -1,3 +1,0 @@
-#### Merapi
-
-Yogyakarta, Indonesia

@@ -1,5 +1,5 @@
 import place1 from '../assets/cards/parangtritis.jpg';
-
+import place2 from '../assets/cards/kiskendo.jpg';
 
 export const places = [
   {
@@ -13,12 +13,12 @@ export const places = [
   },
   {
     id: 2,
-    name: 'Gunung Bromo',
-    location: 'Tengger, Jawa Timur',
-    image: 'https://images.unsplash.com/photo-1519066629447-267fffa62d5d?q=80&w=1200',
+    name: 'Goa Kiskendo',
+    location: 'Girimulyo, Kulon Progo, Yogyakarta',
+    image: place2,
     description: 'Panorama matahari terbit yang memukau di lautan pasir.',
-    tags: ['Gunung', 'Sunrise'],
-    markdown: '2-merapi.md'
+    tags: ['Goa', 'Jogja', 'Foto'],
+    markdown: 'kiskendo.html'
   },
   {
     id: 3,
