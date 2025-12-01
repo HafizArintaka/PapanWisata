@@ -1,6 +1,9 @@
 import place1 from '../assets/cards/parangtritis.jpg';
 import place2 from '../assets/cards/kiskendo.jpg';
 import place3 from '../assets/cards/taman.jpg';
+import place4 from '../assets/cards/obelix.jpg';
+import place5 from '../assets/cards/sermo.jpg';
+import place6 from '../assets/cards/breksi.jpg';
 
 export const places = [
   {
@@ -8,7 +11,7 @@ export const places = [
     name: '꧋ꦥꦤ꧀ꦠ​ꦲꦶ​ꦥ​ꦫꦁ​ꦠꦿꦶ​ꦠꦶꦱ꧀ (Parangtritis)',
     location: 'Parangtritis, Kretek, Bantul, Yogyakarta',
     image: place1,
-    description: 'Ikonik dengan tebing berbentuk T-Rex dan air laut biru yang jernih.',
+    description: 'Pantai Parangtritis nyawiji kaéndahan seganten kidul lan legenda Nyai Roro Kidul ingkang ndadekaké papan menika sarat pesona lan misteri.',
     tags: ['Pantai', 'Ikonik', 'Foto'],
     markdown: 'parangtritis.html'
   },
@@ -17,7 +20,7 @@ export const places = [
     name: '꧋ꦒꦺꦴ​ꦲ​ꦏꦶꦱ꧀ꦏꦼꦤ꧀ꦢꦺꦴ​ (Goa Kiskendo)',
     location: 'Girimulyo, Kulon Progo, Yogyakarta',
     image: place2,
-    description: 'Goa Kiskendo memadukan keindahan alam Menoreh dengan legenda Ramayana yang hidup dalam relief dan ruang goanya.',
+    description: 'Jelajahen Goa Kiskendo, papan ing ngendi kaéndahan alam Menoreh nyawiji kaliyan legenda Ramayana sing isih urip dumugi samenika.',
     tags: ['Goa', 'Jogja', 'Foto'],
     markdown: 'kiskendo.html'
   },
@@ -26,26 +29,35 @@ export const places = [
     name: '꧋ꦠꦩꦤ꧀ꦥꦶꦤ꧀ꦠꦂ (Taman Pintar)',
     location: 'Yogyakarta',
     image: place3,
-    description: 'Jelajahi Goa Kiskendo, tempat legenda Ramayana bertemu keindahan alam Menoreh.',
+    description: 'Taman Pintar Yogyakarta minangka papan sinau interaktif ing tengah kutha ingkang ndadekaké sains lan seni dados luwih nyenengaké.',
     tags: ['Sains', 'Teknologi'],
     markdown: 'taman.html'
   },
   {
     id: 4,
-    name: 'Labuan Bajo',
-    location: 'Flores, NTT',
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200',
-    description: 'Gerbang menuju Taman Nasional Komodo dengan pemandangan laut memukau.',
-    tags: ['Laut', 'Komodo'],
-    markdown: '4-labuan-bajo.md'
+    name: '꧋ꦮ​ꦢꦸꦏ꧀ꦱꦼꦂ​ꦩꦺꦴ​ (Waduk Sermo)',
+    location: 'Kokap, Kulon Progo, Yogyakarta',
+    image: place5,
+    description: 'Waduk Sermo nyawiji ketentreman alam lan kaéndahan perbukitan Menoreh, dados papan santai ingkang nyaman lan nyegeraken.',
+    tags: ['Waduk', 'Camping', 'Foto'],
+    markdown: 'sermo.html'
   },
   {
     id: 5,
-    name: 'Raja Ampat',
-    location: 'Papua Barat',
-    image: 'https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1200',
-    description: 'Surga bawah laut dengan keanekaragaman hayati tertinggi di dunia.',
-    tags: ['Menyelam', 'Pulau'],
-    markdown: '5-raja-ampat.md'
+    name: '꧋ꦲꦺꦴ​ꦧꦼ​ꦭꦶꦏ꦳꧀ꦱꦼ​ꦲ​ꦥ꦳ꦶ​ꦪꦼꦮ꧀ (Obelix Sea View)',
+    location: 'Gunungkidul, Yogyakarta',
+    image: place4,
+    description: 'Obelix Sea View maringi pengalaman wisata estetik ing tebing pesisir kidul kanthi panorama seganten, fasilitas modhèrn, lan papan-papan foto ingkang sanget instagramable.',
+    tags: ['Club', 'Beach', 'Foto'],
+    markdown: 'obelix.html'
+  },
+  {
+    id: 6,
+    name: '꧋ꦠꦼꦧꦶꦁꦧ꧀ꦫꦺꦏ꧀ꦱꦶ (Tebing Breksi)',
+    location: 'Sleman, Yogyakarta',
+    image: place6,
+    description: 'Tebing Breksi nyawiji kaéndahan tebing breksi lan pahatan kreatif ingkang ndadekaké papan tambang lawas punika dados destinasi wisata ingkang éndah lan unik.',
+    tags: ['tebing', 'batuan', 'Foto'],
+    markdown: 'breksi.html'
   }
 ]
